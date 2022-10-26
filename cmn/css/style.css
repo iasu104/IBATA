@@ -109,18 +109,6 @@ header > .container {
   padding: 0 0 0 40px;
   position: relative;
 }
-/* .area_top_view .ttl:before {
-  content: "";
-  display: block;
-  width: 30px;
-  height: 30px;
-  background: url(../img/ico/ico_sns_youtube.svg) no-repeat center center;
-  background-size: contain;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-} */
 
 /* エリア_ホーム */
 [class*="area_home"] {
@@ -170,6 +158,11 @@ header > .container {
   bottom: 0;
   left: 0;
 }
+.act_list {
+  margin: 0 0 80px;
+  display: flex;
+  justify-content: center;
+}
 
 /* 2分割レイアウト */
 .layout_2_div {
@@ -217,49 +210,6 @@ header > .container {
 
 
 /* 特徴 */
-.list_feature {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 -20px;
-}
-.list_feature > li {
-  width: 33.3333%;
-  padding: 0 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.list_feature .img {
-  margin: 0 0 40px;
-  position: relative;
-  z-index: 1;
-}
-.list_feature .img:before {
-  content: "";
-  display: block;
-  width: 78px;
-  height: 78px;
-  border-radius: 50%;
-  background: blue;
-  box-shadow: 0px 2px 12px 2px rgba(0,204,255,1);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: -1;
-  transform: translate(-50% , -50%);
-}
-.list_feature img {
-  width: 80px;
-  height: 80px;
-  vertical-align: bottom;
-}
-.list_feature .ttl {
-  font: 500 28px/1em 'futura PT','noto sans japanese',sans-serif;
-  margin: 0 0 30px;
-}
-.list_feature .description {
-  font: 200 16px/2em 'noto sans japanese',sans-serif;
-}
 
 /* プロフィール */
 .area_home_profile img {
@@ -416,6 +366,7 @@ dl dd h2 {
   font-size: 22px;
   font-weight: bold;
   margin: 0 0 5px;
+  
 }
 
 
