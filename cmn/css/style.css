@@ -165,9 +165,14 @@ header > .container {
 }
 
 /* 2分割レイアウト */
-.layout_2_div {
+.layout_3_div {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  /* margin: 0 -40px; */
+}
+.layout_2_div {
+  display: flex;
   align-items: center;
   /* margin: 0 -40px; */
 }
