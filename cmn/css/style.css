@@ -360,7 +360,7 @@ body h1 {
 body h2 {
   font-size: 22px;
   font-weight: bold;
-  margin: 0 0 5px;
+  margin: 10px 0 40px 0;
 }
 
 dl {
@@ -420,7 +420,9 @@ dl dd h2 {
   text-align: left;
   padding: 10px 10px 10px 50px;
 }
-
+.footer_back{
+  background: rgb(8, 1, 40);
+}
 
 
 
