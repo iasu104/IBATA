@@ -169,7 +169,7 @@ header > .container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin: 0 -40px;
+  /* margin: 0 -40px; */
 }
 .layout_2_div > div {
   width: 50%;
@@ -336,7 +336,8 @@ body * {
 }
 
 body p {
-  line-height: 1.8;
+  line-height: 2;
+  font-size: 18px;
 }
 
 body h1 {
@@ -362,14 +363,14 @@ dl dt {
 dl dt::after {
   content: '●';
   position: absolute;
-  right: -0.55em;
+  right: -2em;
   top: 5px;
   font-size: 22px;
-  color: green;
+  color: #1cff00;
 }
 
 dl dd {
-  width: calc(100% - 4em);
+  width: calc(100% - 6em);
   padding: 1em 1em 2em;
   border-left: 2px solid #0cf;
 }
@@ -389,10 +390,13 @@ dl dd h2 {
   padding:0, 0, 10px, 0
 }
 
-.gradient { 
-	background:linear-gradient(#040a60, rgb(8, 1, 40)); 
-	/* height: 500px;
-	border: 1px solid #333; */
+.gradient {
+  background: linear-gradient(#2c3391, rgb(8, 1, 40));
+}
+
+.img {
+  max-width: 70%;
+  margin: 0 0 0 68px;
 }
 
 
